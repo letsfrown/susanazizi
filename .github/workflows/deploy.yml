@@ -19,5 +19,6 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          port: 22
           local-dir: ./  # Adjust as needed
           server-dir: /web/  # Replace with your target directory on the server
