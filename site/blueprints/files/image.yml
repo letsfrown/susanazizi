@@ -1,0 +1,16 @@
+title: Image / Video
+
+accept:
+  maxsize: 5000000000000
+  # extension: jpg, png, gif, mp4, mp3
+  # type: image, video
+  
+fields:
+  alt:
+    label: Alt-Text
+    type: text
+    width: 1/2
+  photographer:
+    label: Fotograf:in / Videograf:in
+    type: text
+    width: 1/2

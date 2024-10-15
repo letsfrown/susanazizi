@@ -1,0 +1,70 @@
+title: Arbeit
+num: '{{ page.date.toDate("Ymd") }}'
+
+options:
+  changeTemplate: 
+    editor: false
+  changeTitle: 
+    editor: true
+  changeSlug:
+    editor: true
+  changeStatus:
+    editor: true
+  delete:     
+    editor: true
+  sort:
+    editor: false
+  duplicate:
+    editor: false
+  move:
+    editor: false
+
+columns:
+  - width: 1/3
+    fields:
+      date:
+        label: Start-Datum
+        type: date
+        display: DD.MM.YYYY
+        default: today
+        required: true
+        help: Auf der Website angezeigt wird nur das Jahr. Monat und Tag sind für die Sortierung da.
+      endDate:
+        label: End-Datum
+        type: date
+        display: DD.MM.YYYY
+        help: Optional. Nur ausfüllen, wenn ein Zeitraum angezeigt werden soll (Jahr – Jahr).
+      text:
+        extends: fields/text
+      size:
+        label: Größe / Format
+        type: text
+      material:
+        label: Material
+        type: tags
+        options:
+          type: query
+          query: page.siblings.pluck("material", ",", true)
+  - width: 1/3
+    fields:
+      link:
+        label: URL
+        extends: fields/linktext
+        help: Hier kannst du eine externe Website verlinken.
+      video:
+        label: Video-URL
+        extends: fields/linktext
+        help: Hier kannst du ein externes Video verlinken (bsp. von Vimeo oder Youtube).
+
+  - width: 1/3
+    sections:
+      gallery:
+        template: image
+        type: files
+        label: Bilder & Videos
+        layout: cards
+        min: 1
+        size: small
+        info: "{{ file.dimensions }}"
+        image:
+          back: white

@@ -1,0 +1,33 @@
+title: Susan Azizi
+
+tabs:
+  # Tab Dashboard
+  dashboard:
+    columns:
+      - width: 1/3
+        sections:
+          fields:
+            type: fields
+            fields:
+              intro:
+                extends: fields/text
+          pages:
+            type: pages
+            label: Seiten
+            image:
+              back: white
+              query: false
+            create: false
+            template:
+              - arbeiten
+              - info
+              - impressum
+      - width: 2/3
+        sections:
+          published:
+            extends: sections/arbeiten
+            status: published
+            label: Veröffentlichte Arbeiten
+  # Tab Meta
+  # meta:
+ 

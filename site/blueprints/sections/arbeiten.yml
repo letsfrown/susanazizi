@@ -1,0 +1,13 @@
+type: pages
+parent: kirby.page("arbeiten")
+info: "{{ page.date.toDate('Y') }}"
+size: small
+layout: cards
+template: arbeit
+empty: Noch keine neuen Entwürfe
+sortBy: date desc
+image:
+  query: page.cover
+  cover: true
+  ratio: 1/1
+  query: page.images.first

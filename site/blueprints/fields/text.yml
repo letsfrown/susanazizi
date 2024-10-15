@@ -1,0 +1,8 @@
+type: writer
+maxlength: 1000
+marks:
+  - link
+  - email
+  - underline
+  - strike
+nodes: false

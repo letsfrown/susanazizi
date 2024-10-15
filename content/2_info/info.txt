@@ -1,0 +1,116 @@
+Title: Info
+
+----
+
+Bio: Susan Azizi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus magna fringilla urna porttitor rhoncus dolor. Turpis egestas sed tempus urna et pharetra pharetra massa massa. Libero justo laoreet sit amet cursus sit amet dictum.
+
+----
+
+Contact: <p><a href="/@/page/YeY5d1JuyBhC7ERL">www.susan-azizi.de</a></p><p><a href="mailto:susan.azizi1974@gmail.com" title="susan.azizi1974@gmail.com">susan.azizi1974@gmail.com</a></p>
+
+----
+
+Ausbildung:
+
+- 
+  startdate: 2023-01-01
+  enddate: ""
+  entry: '<p>nGbK Stipendium weltoffenes Berlin</p>'
+- 
+  startdate: 2020-01-01
+  enddate: ""
+  entry: '<p>Tätigkeit als Kunstpädagogin </p><p>Ulme35 / Berlin</p>'
+- 
+  startdate: 2021-01-01
+  enddate: 2022-01-01
+  entry: '<p>Gasthörer*innen-Programm *foundationClass </p><p>weißensee kunsthochschule berlin</p>'
+- 
+  startdate: 2018-01-01
+  enddate: 2019-01-01
+  entry: '<p>Künstlerische Leitung einer Senior*innen-Gruppe</p><p> Evangelisches Johannisstift / Berlin</p>'
+- 
+  startdate: 2017-01-01
+  enddate: ""
+  entry: '<p>Tätigkeit als freischaffende Künstlerin</p><p>Elmi Karbordi Universität / Bushehr, Iran</p>'
+- 
+  startdate: 2010-01-01
+  enddate: ""
+  entry: '<p>Tätigkeit als freischaffende Künstlerin</p><p>Stadt Bushehr, Iran</p>'
+- 
+  startdate: 2008-01-01
+  enddate: 2009-01-01
+  entry: '<p>Anstellung als Kunstlehrerin für Jugendliche </p><p>Fatemiyeh Mäddchenschule für Bildende Kunst / Bushehr, Iran</p>'
+- 
+  startdate: 2005-01-01
+  enddate: 2007-01-01
+  entry: '<p>Gründung und Leitung der Lehrstätte für Bildende Kunst</p><p>Kermanshah, Iran</p>'
+- 
+  startdate: 1997-01-01
+  enddate: 2002-01-01
+  entry: '<p>B.A. Geografie (Lehramt) </p><p>Payam Noor Universität in Kermanshah, Iran</p>'
+- 
+  startdate: 1997-01-01
+  enddate: 2001-01-01
+  entry: '<p>Privatschule für Malerei in Kermanshah, Iran</p>'
+
+----
+
+Ausstellungen:
+
+- 
+  startdate: 2023-01-01
+  enddate: ""
+  entry: '<p>BE<s>LONG</s>ING</p><p>Mit Common Ground Studio</p><p>Udk Berlin</p>'
+- 
+  startdate: 2023-01-01
+  enddate: ""
+  entry: '<p>Migration &amp; Wurzeln</p><p>/w Gohdar Salahaddin und Bariş Seyitvan (Kuration) </p><p>Ulme35 / Berlin</p>'
+- 
+  startdate: 2022-01-01
+  enddate: ""
+  entry: '<p>Becoming </p><p>/w *foundationClass collective</p><p> documenta fifteen / Kassel</p>'
+- 
+  startdate: 2018-01-01
+  enddate: ""
+  entry: '<p>Mobile Welten </p><p>Museum für Kunst und Gewerbe Hamburg</p>'
+- 
+  startdate: 2017-01-01
+  enddate: ""
+  entry: '<p>Die Könige – UTC 7 hours parallel performances</p><p>Eine Produktion von KUNSTASYL in Zusammenarbeit mit dem Museum Europäischer Kulturen Berlin, MEK</p>'
+- 
+  startdate: 2017-01-01
+  enddate: ""
+  entry: '<p>Offene Ateliers BLO-Ateliers</p>'
+
+----
+
+Vermittlung:
+
+- 
+  startdate: 2023-01-01
+  enddate: ""
+  entry: '<p>"Menschen, Zwiebeln und ihre (Ge)Schichten – Multidimensionale Identitäten" </p><p>Künstlerische Leitung mit Wirya Budaghi </p><p>Zukunftswerkstatt Heinersdorf</p>'
+- 
+  startdate: 2023-01-01
+  enddate: ""
+  entry: '<p>Peira und Nachbarinnen vom Mehringplatz Raum für ____________! </p><p>Ein Mural für den Kiez Im Rahmen von “¡PROTAGONISTAS! Resistance Feminisms Revolution” </p><p>Künstlerische Mitarbeit HAU Berlin</p>'
+- 
+  startdate: 2023-01-01
+  enddate: ""
+  entry: '<p>nGbK Lecture: Solidarität im Kunstfeld – mehr als nur Geste</p><p>Paneldiskussion mit Susan Azizi, Lara Habboub, Marc-André Schmachtel, Irina Novarese </p><p>Paneldiskussion nGbK Berlin</p>'
+- 
+  startdate: 2022-01-01
+  enddate: ""
+  entry: '<p>„Contemporary Kurdish Artists Talks“ mit Barış Seyitvan </p><p>Artist Talk nGbK Berlin</p>'
+- 
+  startdate: 2022-01-01
+  enddate: ""
+  entry: '<p>Kunst und Exil: Performance &amp; Artist Talk</p><p>Im Rahmen der Ausstellung „Migration &amp; Wurzeln“</p><p>Mit Wirya Budaghi (Performance), Gohdar Salahaddin und Bariş Seyitvan (Kuration)</p><p>Ulme35 Berlin</p>'
+- 
+  startdate: 2021-01-01
+  enddate: ""
+  entry: '<p>ThisOriented Offene Werkstatt für ästhetische Forschung</p><p> In Kooperation mit Wirya Budadhi </p><p>Ulme35</p>'
+
+----
+
+Uuid: yoQGJzKlMWzDVudK

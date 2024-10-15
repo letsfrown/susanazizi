@@ -1,0 +1,22 @@
+type: fields
+fields:
+  bio:
+    extends: fields/text
+    label: Biografie
+    width: 1/3
+  contact:
+    label: Kontakt
+    extends: fields/text
+    width: 1/3
+  gap:
+    type: gap
+    width: 1/3
+  ausbildung:
+    label: Ausbildung & Berufspraxis
+    extends: fields/timetable
+  ausstellungen:
+    label: Ausstellungen
+    extends: fields/timetable
+  vermittlung:
+    label: Vermittlung
+    extends: fields/timetable

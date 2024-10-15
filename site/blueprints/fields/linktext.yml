@@ -1,0 +1,11 @@
+type: object
+fields:
+  linktext:
+    type: text
+    label: Link-Text
+    required: true
+  url:
+    type: url
+    label: URL
+    required: true
+

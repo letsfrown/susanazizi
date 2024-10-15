@@ -1,0 +1,36 @@
+title: Arbeiten
+icon: dashboard
+
+options:
+  changeTemplate: 
+    editor: false
+  changeTitle: 
+    editor: false
+  changeSlug:
+    editor: false
+  changeStatus:
+    editor: false
+  move: 
+    editor: false
+  delete:     
+    editor: false
+  sort:
+    editor: false
+  duplicate:
+    editor: false
+
+columns:
+  - width: 1/3
+    sections:
+      drafts:
+        extends: sections/arbeiten
+        status: drafts
+        label: Entwürfe
+        layout: list
+        help: Neue Arbeiten werden zuerst als Entwurf angelegt. Zum Veröffentlichen den Status über die drei Punkte verändern.
+  - width: 2/3
+    sections:
+      published:
+        extends: sections/arbeiten
+        status: published
+        label: Veröffentlichte Arbeiten

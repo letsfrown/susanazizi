@@ -1,0 +1,24 @@
+title: Info
+icon: info
+
+options:
+  changeTemplate: 
+    editor: false
+  changeTitle: 
+    editor: false
+  changeSlug:
+    editor: false
+  changeStatus:
+    editor: false
+  move: 
+    editor: false
+  delete:     
+    editor: false
+  sort:
+    editor: false
+  duplicate:
+    editor: false
+
+sections:
+  info:
+    extends: sections/info 

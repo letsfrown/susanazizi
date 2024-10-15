@@ -1,0 +1,292 @@
+/* – – – – – – */
+/* ROOT */
+/* – – – – – – */
+
+@font-face {
+  font-family: 'PPEiko-Regular';
+  src: url('/assets/fonts/PPEiko-Regular.woff2') format('woff2'),
+    url('/assets/fonts/PPEiko-Regular.woff') format('woff');
+}
+
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+
+
+  --body-font: 'PPEiko-Regular';
+
+  --font-size-base: clamp(16px, 0.45vw + 14.18px, 18px);
+  --font-size-md: clamp(19.6px, 0.8vw + 16.39px, 26.66px);
+  --font-size-lg: clamp(24.01px, 1.31vw + 18.77px, 35.54px);
+
+  --padding-xs: .5rem;
+  --padding-sm: 1rem;
+  --padding-md: 2rem;
+  --padding-lg: 4rem;
+  --padding-sm-responsive: clamp(0rem, 1.82vw + -0.45rem, 1rem);
+  --padding-md-responsive: clamp(1rem, 1.82vw + 0.55rem, 2rem);
+  --padding-lg-responsive: clamp(1rem, 5.45vw + -0.36rem, 4rem);
+
+  --main-max-width: 1440px;
+
+}
+
+
+/* – – – – – – */
+/* TYPOGRAPHY */
+/* – – – – – – */
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--font-size-base);
+}
+
+p {
+  hanging-punctuation: first last;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a:hover,
+a:active,
+a.active,
+button:hover,
+button:hover span {
+  text-decoration-thickness: .05em;
+  text-decoration-color: inherit;
+  text-decoration-style: solid;
+  text-decoration-skip: unset;
+  text-decoration-line: underline;
+  text-underline-offset: .125em;
+}
+
+h1:not(:empty) {
+  font-size: var(--font-size-lg);
+}
+
+h2:not(:empty) {
+  font-size: var(--font-size-md);
+}
+
+h1:not(:empty) {
+  font-size: var(--font-size-md);
+}
+
+
+
+/* – – – – – – */
+/* LAYOUT ELEMENTS */
+/* – – – – – – */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+main {
+  padding: var(--padding-lg-responsive);
+  margin-bottom: var(--padding-lg);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+  gap: var(--padding-lg);
+
+}
+
+.grid.center {
+  align-items: center;
+}
+
+.intro-wrapper {
+  padding: var(--padding-sm-responsive);
+  font-size: var(--font-size-md);
+}
+
+.metadata-grid {
+  display: grid;
+  margin-top: var(--padding-sm);
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(auto);
+  gap: var(--padding-xs) var(--padding-md);
+  word-break: break-word;
+}
+
+.flow * {
+  max-width: 80ch;
+}
+
+.flow>*+* {
+  margin-top: 1em;
+}
+
+
+
+
+/* – – – – – – */
+/* NAV & FOOTER*/
+/* – – – – – – */
+
+header nav,
+footer {
+  padding: var(--padding-sm) var(--padding-md-responsive);
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  margin-top: auto;
+}
+
+
+/* – – – – – – */
+/* PAGINATION / LOAD MORE */
+/* – – – – – – */
+
+.js .project-pagination {
+  display: none;
+}
+
+.no-js .load-more {
+  display: none;
+}
+
+.next {
+  text-align: right;
+}
+
+.load-more {
+  position: relative;
+  display: flex;
+}
+
+.load-more span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.load-more img {
+  margin: auto;
+}
+
+
+/* – – – – – – */
+/* SWIPER */
+/* – – – – – – */
+
+.swiper {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.swiper-slide img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: unset !important;
+  height: unset !important;
+  opacity: 0 !important;
+  transition: opacity 100ms ease-out;
+  --swiper-navigation-top-offset: calc(100% - 5rem);
+  filter: drop-shadow(0px 0px 8px rgb(0 0 0 / 1));
+}
+
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled,
+.swiper:hover .swiper-button-prev.swiper-button-disabled,
+.swiper:hover .swiper-button-next.swiper-button-disabled {
+  opacity: 0 !important;
+}
+
+.swiper:hover .swiper-button-next,
+.swiper:hover .swiper-button-prev {
+  transition: opacity 100ms ease-in;
+  opacity: 1 !important;
+}
+
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  opacity: 0 !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: "";
+  display: none;
+}
+
+
+/* – – – – – – */
+/* ACCORDION */
+/* – – – – – – */
+
+/* Initial setup */
+
+.accordion label {
+  cursor: pointer;
+  display: flex;
+  padding: var(--padding-md-responsive);
+  gap: var(--padding-md-responsive);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion label h2 {
+  font-size: var(--font-size-md);
+}
+
+.accordion .content {
+  padding: var(--padding-sm);
+  padding-top: unset;
+}
+
+/* Initial setup cross icon */
+.accordion label img {
+  width: var(--font-size-md);
+  transition: rotate 100ms ease-out;
+}
+
+/* Cross Icon animation */
+.accordion:has(input[type='checkbox']:checked) label img {
+  rotate: 45deg;
+  transition: rotate 100ms ease-in;
+}
+
+/* Hide the radio buttons */
+.accordion input[type='checkbox'] {
+  display: none;
+}
+
+/* hide content by default */
+.accordion input[type='checkbox']+.content {
+  max-height: 0px;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 200ms ease-out;
+}
+
+/* Show content boxes when the radio buttons are checked */
+.accordion input[type='checkbox']:checked+.content {
+  max-height: 100vh;
+  opacity: 1;
+  transition: all 200ms ease-in;
+}
