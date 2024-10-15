@@ -13,12 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Install FTP Deploy Action
-        uses: SamKirkland/FTP-Deploy-Action@v4
+      - name: Upload files via FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.5
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          port: 22  # Default FTP port is 21
           local-dir: ./  # Adjust as needed
-          server-dir: /path/to/your/server/dir  # Replace with your target directory on the server
+          server-dir: /web/  # Replace with your target directory on the server
